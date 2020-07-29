@@ -18,12 +18,11 @@ module.exports.arr=function(){
     ]
     var parsed = "";
     for (i = 0; i< accounts.length; i++) {
+        parsed += "<br />";
         var myobj=  accounts[i];
         for (var property in myobj) {
             parsed += property + ": " + myobj[property] + "\t";          
         }
-        parsed += "\n";
-        //document.write("\n");
      }   
     console.log(parsed);
     return parsed;
