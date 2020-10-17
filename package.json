@@ -1,0 +1,25 @@
+{
+  "name": "services",
+  "version": "1.0.0",
+  "description": "Using nodejs and mongoDB",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajith-Rahul/software-engineering.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajith-Rahul/software-engineering/issues"
+  },
+  "homepage": "https://github.com/Ajith-Rahul/software-engineering#readme"
+}
